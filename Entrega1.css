@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+#container{
+    display:flex;
+}
+
+#esquerda{
+    display: flex;
+    align-items: flex-start;
+    width: 206px;
+    height: 722px;
+}
+
+.x{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    padding: 22px;
+    margin-left: 5px;
+}
+
+.facebook{
+    display: flex;
+    background-color: white;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin-top: 9px;
+}
+
+#imagem{
+    display: flex;
+    flex-direction: column;
+    width: 722px;
+    height: 500px;
+}
+
+#direita{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 206px;
+    height: 722px;
+}
+
+.lupa_mais{
+    margin-top: 15px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.lupa_menos{
+    margin-top: 15px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.etiqueta{
+    margin-top: 15px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.seta_dupla{
+    margin-top: 23px;
+    display: flex;
+    width: 15px;
+    height: 15px;
+}
+
+#comentarios{
+    display: flex;
+    flex-direction: column;
+    background-color: #242526;
+    width: 370px;
+    height: 722px;
+}
+
+.perfil{
+    display: flex;
+    align-items: flex-start;
+}
+
+#foto_de_perfil{
+    display: flex;
+    align-items: flex-start;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 13px;
+}
+
+.nome_perfil{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.tres_pontos{
+    display: flex;
+    height: 18px;
+    width: 18px;
+    margin-top: 78px;
+    margin-left: 140px;
+}
+
+.legenda{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 100px;
+}
